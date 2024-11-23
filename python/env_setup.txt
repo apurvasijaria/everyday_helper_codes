@@ -1,0 +1,46 @@
+
+
+- Upgrading / Downgrading Python version from  conda prompt
+
+```
+conda install -c conda-forge python
+```
+
+- Creating a new environment
+
+```
+conda create --name <name> 
+```
+
+```
+conda create --name <name> python=3.8
+```
+- Activate the environment
+
+```
+conda activate <name>
+```
+
+- deactivate the environment
+
+```
+conda deactivate <name>
+```
+
+- environemnt in jupyter notebook
+
+```
+conda install -c anaconda ipykernel
+
+python -m ipykernel install --user --name <name>
+```
+
+- get list of kernels on jupyter
+```
+jupyter kernelspec list
+```
+- remove kernel from jupyter
+```
+jupyter kernelspec remove <name>
+```
+
